@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+:root {
+    --yellow-color: #fcee09;
+    --red-color: #ff174d;
+    --black-color: #050a0e;
+    --blue-color: #00f0ff;
+    --white-color: #fafafa;
+}
+
+html,
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 100%;
+    background-color: #101010;
+}
+
+.profile {
+    width: 100%;
+    max-width: 690px;
+    padding: 40px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.55);
+    color: var(--white-color);
+}
+
+.avatar-block{
+    width: 100%;
+    margin: 0;
+}
+
+.avatar-block:before {
+    content:     "";
+    display:     block;
+    padding-top: 100%;
+}
+
+#avatar {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 20px;
+    border-radius: 150px;
+}
+
+#name {
+    margin-bottom: 40px;
+    font-family: Tomorrow, sans-serif;
+}
+
+.button {
+    border-color: #101010;
+    background-color: #101010;
+}
+
+.button:hover {
+    border-color: #101010;
+    background-color: #101010;
+}
+
+.button:active {
+    border-color: #101010;
+    background-color: #101010;
+}
+
+::-webkit-file-upload-button {
+    display: none;
+}
+
+.images {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.table-dark {
+    --bs-table-bg: #101010;
+    --bs-table-striped-bg: #101010;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #101010;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #101010;
+    --bs-table-hover-color: #fff;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+progress {
+    width: 90% !important;
+    height: 8px;
+    color: var(--red-color);
+    background-color: var(--white-color);
+    padding: 0 !important;
+    margin-bottom: 5px;
+}
+progress::-webkit-progress-bar {
+    padding: 0 !important;
+    background-color: var(--white-color);
+}
+progress::-webkit-progress-value {
+    background-color: var(--red-color);
+    padding: 0 !important;
+}

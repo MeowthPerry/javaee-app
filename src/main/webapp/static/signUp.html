@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="static/css/styles.css" rel="stylesheet">
+    <link href="static/css/button.css" rel="stylesheet">
+    <link href="static/css/input.css" rel="stylesheet">
+</head>
+<body class="text-center">
+
+<div class="form-style">
+    <form method="post" action="/ProfileApp/signUp">
+        <h1 class="mb-3 font-weight-normal">sign up</h1>
+        <p>LET'S GET ACQUAINTED!</p>
+
+        <input type="text" name="name" placeholder="Name" autocomplete="off"/>
+        <input type="text" name="surname" placeholder="Surname" autocomplete="off"/>
+        <input type="tel" name="phone" placeholder="Phone" autocomplete="off"/>
+        <input type="email" name="email" placeholder="Email" autocomplete="off"/>
+        <input type="password" name="password" placeholder="Password" autocomplete="off"/>
+
+        <p style="margin-bottom: 0; margin-top: 14px"><a style="color: #ff174d; text-decoration: none;" href="/ProfileApp/signIn">LOG INTO ACCOUNT</a></p>
+        <button class="btn btn--secondary" type="submit">
+            <span class="btn__content">CREATE ACCOUNT</span>
+            <span class="btn__glitch"></span>
+        </button>
+    </form>
+</div>
+
+</body>
+</html>

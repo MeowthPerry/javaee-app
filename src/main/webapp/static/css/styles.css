@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+@font-face {
+    font-family: 'MadHacker';
+    src: url("../fonts/mad-hacker-font/MadHacker-Yjz8.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'MadHacker italic';
+    src: url("../fonts/mad-hacker-font/MadHackerItalic-8EOz.ttf") format("truetype");
+}
+
+:root {
+    --yellow-color: #fcee09;
+    --red-color: #ff174d;
+    --black-color: #050a0e;
+    --blue-color: #00f0ff;
+    --white-color: #fafafa;
+}
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101010;
+}
+
+h1.mb-3 {
+    font-family: MadHacker, serif;
+    color: var(--white-color);
+    margin-bottom: 8px !important;
+}
+
+p {
+    color: rgba(250, 250, 250, 0.75);
+    font-family: Tomorrow, sans-serif;
+    font-size: .85rem;
+}

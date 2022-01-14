@@ -1,0 +1,1 @@
+INSERT INTO images VALUES (DEFAULT, -1, 'standard.jpg', 'standard.jpg', -1, 'image/jpeg')

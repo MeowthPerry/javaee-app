@@ -1,0 +1,36 @@
+
+.form-style{
+    width: 500px;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.55);
+    margin: auto;
+}
+
+input
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #fafafa;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+.form-style textarea{
+    resize:none;
+    overflow: hidden;
+}
+
+.form-style input:focus {
+    animation: ease all 0.3s;
+    border-bottom: 2px solid #ddd;
+}
