@@ -68,14 +68,31 @@ Install what you don't have.
  \i {PATH_TO_REPOSITORY}/javaee_app/src/main/resources/sql/data.sql;
  \q # to quit psql
  ```
-3. Change project's properties file
+3. Change project's properties file 
  ```sh
- 
+ nano javaee_app/src/main/resources/application.properties
+ ```
+4. Build project using Maven
+ ```sh
+ mvn -f {PATH_TO_REPOSITORY}/javaee_app/pom.xml clean install
+ ```
+5. Copy compiled files to Tomcat
+ ```sh
+ sudo cp -r {PATH_TO_REPOSITORY}/javaee_app/target/ProfileApp /opt/tomcat/apache-tomcat-8.5.73/webapps/
  ```
 
 ## Usage
 
+1. Start Tomcat
+ ```sh
+ sudo bash /opt/tomcat/apache-tomcat-8.5.73/bin/startup.sh
+ ```
+2. Follow the link (http://localhost:8080/ProfileApp/signIn). If you use VirtualBox you have to crate new port forwarding rule.
+3. To turn off Tomcat
+ ```sh
+ sudo bash /opt/tomcat/apache-tomcat-8.5.73/bin/shutdown.sh
+ ```
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: images/screenshot.png
+[signIn-screenshot]: screenshots/signIn.png
+[signUp-screenshot]: screenshots/signUp.png
+[profile-screenshot]: screenshots/profile.png
