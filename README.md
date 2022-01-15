@@ -102,8 +102,8 @@ Install what you don't have.
  
  ## To contact me
  
- Email: xab.is@yandex.ru
- Telegram: @ahahahahahahahahahahahabibullin
+ * Email: xab.is@yandex.ru
+ * Telegram: @ahahahahahahahahahahahabibullin
 
 [signIn-screenshot]: screenshots/signIn.png
 [signUp-screenshot]: screenshots/signUp.png
