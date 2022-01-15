@@ -16,7 +16,7 @@ In the application, you can create an account and upload images to the server. F
 
 * Java 11
 * Java EE (Servlets, JSP)
-* PostgreSQL
+* JDBC (PostgreSQL)
 * Apache Maven
 * Apache Tomcat 8
 
