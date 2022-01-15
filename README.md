@@ -1,11 +1,11 @@
 <!-- ABOUT THE PROJECT. SCREENSHOTS -->
 ## About The Project
 
-http://localhost:8080/ProfileApp/signIn
+SignIn page
 ![SignIn page][signIn-screenshot]
-http://localhost:8080/ProfileApp/signUp
+SignUp page
 ![SignUp page][signUp-screenshot]
-http://localhost:8080/ProfileApp/profile
+Profile page
 ![Profile page][profile-screenshot]
 
 The goal of the project is to create a web application using Java EE and database (PostgreSQL) without connecting a modern technology stack like spring boot and hibernate.
@@ -90,8 +90,12 @@ Install what you don't have.
  ```sh
  sudo bash /opt/tomcat/apache-tomcat-8.5.73/bin/startup.sh
  ```
-2. Follow the link (http://localhost:8080/ProfileApp/signIn). If you use VirtualBox you have to crate new port forwarding rule.
-3. To turn off Tomcat
+2. Three pages are available to you.
+ * http://localhost:8080/ProfileApp/signIn
+ * http://localhost:8080/ProfileApp/signUp
+ * http://localhost:8080/ProfileApp/profile
+4. If you use VirtualBox you have to crate new port forwarding rule.
+5. To turn off Tomcat
  ```sh
  sudo bash /opt/tomcat/apache-tomcat-8.5.73/bin/shutdown.sh
  ```
