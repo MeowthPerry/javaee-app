@@ -1,11 +1,11 @@
 <!-- ABOUT THE PROJECT. SCREENSHOTS -->
 ## About The Project
 
-SignIn page
+#### SignIn page
 ![SignIn page][signIn-screenshot]
-SignUp page
+#### SignUp page
 ![SignUp page][signUp-screenshot]
-Profile page
+#### Profile page
 ![Profile page][profile-screenshot]
 
 The goal of the project is to create a web application using Java EE and database (PostgreSQL) without connecting a modern technology stack like spring boot and hibernate.
