@@ -1,8 +1,11 @@
 <!-- ABOUT THE PROJECT. SCREENSHOTS -->
 ## About The Project
 
+http://localhost:8080/ProfileApp/signIn
 ![SignIn page][signIn-screenshot]
+http://localhost:8080/ProfileApp/signUp
 ![SignUp page][signUp-screenshot]
+http://localhost:8080/ProfileApp/profile
 ![Profile page][profile-screenshot]
 
 The goal of the project is to create a web application using Java EE and database (PostgreSQL) without connecting a modern technology stack like spring boot and hibernate.
